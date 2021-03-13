@@ -19,6 +19,7 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -314,6 +315,8 @@ fun SearchText(hint: String) {
         modifier = Modifier
             .height(56.dp)
             .fillMaxWidth()
+            .clickable {
+            }
             .padding(start = 16.dp, end = 16.dp, top = 8.dp)
             .clip(shape = RoundedCornerShape(4.dp))
     )
