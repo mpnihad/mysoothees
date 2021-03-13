@@ -203,6 +203,7 @@ private fun AlignBody(designModel: MutableList<DesignModel>) {
                         .fillMaxWidth()
                         .wrapContentWidth(align = Alignment.CenterHorizontally),
                     style = MaterialTheme.typography.h3
+
                 )
             }
         }
